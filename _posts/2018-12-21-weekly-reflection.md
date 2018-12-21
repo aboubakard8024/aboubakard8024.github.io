@@ -15,13 +15,9 @@ date: 2018-12-21
 
 ## Current output
 
+![MyFlag](/images/FLAGBCB.png)
 
-(define white "whitesmoke" )
 
-
-* * *
-![Flag](/images/final-flag.png)
-* * *
 
 ## Describe your process.
 
@@ -32,23 +28,19 @@ I recieved alot of help from my peers, especially David M. and Emir. When I didn
 
 ## Explain your code.
 
--   Choose a significant part of your program (15 lines max) and paste it below. Do not insert your entire program here. _then delete this instruction_
 -   Explain each argument in the code section. _then delete this instruction_
 -   Tell us how it functions independently and within the whole program _then delete this instruction_
 
 * * *
 
-```
-Insert 10-15 line code section here _then delete this instruction_
-```
+(put-image (rectangle 300 25 "solid" white)
+                                280 205
 
 * * *
 
--   Explain the code you posted by telling us about each argument.
--   Then tell us how your code section fits into the whole.
+-   - This code is a put-image code. It placed a white rectangle on the square which created a stripe.
+-   This code fits into the whole project because it creates one of the many stripes on the Greek flag.
  
-<!--- Delete this comment and add your writing -->
-
 
 ## Program code
 
