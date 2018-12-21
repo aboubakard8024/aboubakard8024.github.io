@@ -15,7 +15,9 @@ date: 2018-12-21
 
 ## Current output
 
--   Insert an image that your program currently produces. _then delete this instruction_
+
+(define white "whitesmoke" )
+
 
 * * *
 ![Flag](/images/final-flag.png)
@@ -51,5 +53,24 @@ Insert 10-15 line code section here _then delete this instruction_
 ## Program code
 
 ```
-Insert entire program here _then delete this instruction_
+(put-image (rectangle 600 25 "solid" white)
+                                280 48
+(put-image (rectangle 300 25 "solid" white)
+                                280 205
+(put-image (rectangle 600 25 "solid" white)
+                                280 103
+(put-image (rectangle 300 25 "solid" white)
+                                280 155
+(put-image (rotate 90(rectangle 180 25 "solid" white))
+                                65 205  
+(put-image (rectangle 180 25 "solid" white)
+                                40 180
+(put-image (square 180 "solid" "royalblue")
+                                40 220
+                                 (put-image (circle 0.11 "solid" white)
+                                            77 80 
+                                            (rectangle 385 245"solid" "royalblue")))))))))
+
+(define white "whitesmoke" )
+
 ```
